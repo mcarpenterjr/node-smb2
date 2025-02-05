@@ -1,8 +1,8 @@
 {
-  "name": "@marsaud/smb2",
+  "name": "@mcarpenterjr/smb2",
   "description": "SMB2 Client",
-  "homepage": "https://github.com/marsaud/node-smb2",
-  "version": "0.18.0",
+  "homepage": "https://github.com/mcarpenterjr/node-smb2",
+  "version": "0.18.1",
   "engines": {
     "node": ">=5.10"
   },
@@ -12,13 +12,14 @@
     "url": "https://github.com/bchelli"
   },
   "contributors": [
-    "Fabrice Marsaud <fabrice.marsaud@vates.fr> (https://github.com/marsaud)"
+    "Fabrice Marsaud <fabrice.marsaud@vates.fr> (https://github.com/marsaud)",
+    "Mark N Carpenter Jr <mark@mncjr.com> (https://github.com/mcarpenterjr)"
   ],
   "types": "index.d.ts",
   "main": "lib/smb2.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marsaud/node-smb2"
+    "url": "https://github.com/mcarpenterjr/node-smb2"
   },
   "dependencies": {
     "ntlm": "~0.1.1",
