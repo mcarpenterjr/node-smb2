@@ -1,25 +1,29 @@
 {
-  "name": "@mcarpenterjr/smb2",
+  "name": "@mrpollard/smb2",
   "description": "SMB2 Client",
   "homepage": "https://github.com/mcarpenterjr/node-smb2",
   "version": "0.18.1",
   "engines": {
     "node": ">=5.10"
   },
-  "author": {
-    "name": "Benjamin Chelli",
-    "email": "benjamin@chelli.net",
-    "url": "https://github.com/bchelli"
-  },
+  "author": "Benjamin Chelli <benjamin@chelli.net> (https://github.com/bchelli)",
   "contributors": [
-    "Fabrice Marsaud <fabrice.marsaud@vates.fr> (https://github.com/marsaud)",
-    "Mark N Carpenter Jr <mark@mncjr.com> (https://github.com/mcarpenterjr)"
+    {
+      "name": "Fabrice Marsaud",
+      "email": "fabrice.marsaud@vates.fr",
+      "url": "https://github.com/marsaud"
+    },
+    {
+      "name": "Mark N Carpenter Jr",
+      "email": "mark@mncjr.com",
+      "url": "https://github.com/mcarpenterjr"
+    }
   ],
   "types": "index.d.ts",
   "main": "lib/smb2.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcarpenterjr/node-smb2"
+    "url": "git+https://github.com/mcarpenterjr/node-smb2.git"
   },
   "dependencies": {
     "ntlm": "~0.1.1",
@@ -65,5 +69,12 @@
       "git add"
     ],
     "*.js": "eslint"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/mcarpenterjr/node-smb2/issues"
   }
 }
